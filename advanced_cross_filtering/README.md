@@ -28,7 +28,6 @@ You can display measures alongside your filter dimensions using data bars and co
 ### 🖌️ Granular Design Control
 Customize backgrounds, transparency levels, and even use images as backgrounds for a highly polished look.
 ![Design](https://scrapbox.io/files/6921cea2bfa9b6c6e9d5ea89.png)
-> **Side Note:** I actually struggled a bit to generate this surreal truck image (where the background time axes are distorted) using Gemini, but it eventually turned out with surprisingly high precision!
 
 ## Limitations & Considerations (Cons)
 
