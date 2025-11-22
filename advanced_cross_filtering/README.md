@@ -32,6 +32,7 @@ You can display measures alongside your filter dimensions using data bars and co
 ### 🖌️ Granular Design Control
 Customize backgrounds, transparency levels, and even use images as backgrounds for a highly polished look.
 ![Design](https://scrapbox.io/files/6921cea2bfa9b6c6e9d5ea89.png)
+> **Side Note:** I actually struggled a bit to generate this surreal truck image (where the background time axes are distorted) using Gemini, but it eventually turned out with surprisingly high precision!
 
 ## Limitations & Considerations (Cons)
 
@@ -40,7 +41,7 @@ Customize backgrounds, transparency levels, and even use images as backgrounds f
     * **Sequential Processing:** When selecting multiple items, filters are applied one by one (sequential queries) rather than processing a batch of selections at once.
 * **Functional Differences:**
     * Some complex logic available in standard filters (e.g., relative date logic like "Today") is not currently supported.
-    * *Supported Logic:* Partial match, Exclude, Number range, and Regex search are implemented.
+    * *Included Features:* Partial match, Exclude, Number range, and Regex search are implemented.
 
 ## Data Requirements
 
@@ -50,4 +51,5 @@ Customize backgrounds, transparency levels, and even use images as backgrounds f
 ## Disclaimer
 This is a custom visualization sample. If you require additional features, you may try modifying the code using AI tools like Gemini. Support is not provided for this visualization.
 
----
+**Note on Translation:**
+The README and code were originally created in Japanese and translated/refined using Gemini. Please be aware that there may be unnatural phrasing or translation errors.---
