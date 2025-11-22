@@ -41,7 +41,6 @@ Customize backgrounds, transparency levels, and even use images as backgrounds f
 * **Functional Differences:**
     * Some complex logic available in standard filters (e.g., relative date logic like "Today") is not currently supported.
     * *Supported Logic:* Partial match, Exclude, Number range, and Regex search are implemented.
-    ![Search Logic](https://scrapbox.io/files/691c382fb0ceba5ef2f7d9a9.png)
 
 ## Data Requirements
 
