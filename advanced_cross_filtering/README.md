@@ -4,7 +4,7 @@ This is a Custom Visualization for Looker that functions as an interactive filte
 
 <img width="800"  alt="Image" src="https://github.com/user-attachments/assets/22b6ad9c-7e4e-4e6d-a599-9315d25bd187" />
 
-(There is a Gemini mark on the image, but I just used Gemini to white out the image. Apart from this editing, it is the actual screen.)
+(There is a Gemini mark in the bottom right corner of the image, but I just used Gemini to white out the image. Apart from this editing, it is the actual screen.)
 
 > **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=yk9xEDG_5Lw)
 
