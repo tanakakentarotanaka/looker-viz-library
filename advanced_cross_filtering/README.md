@@ -8,10 +8,6 @@ This is a Custom Visualization for Looker that functions as an interactive filte
 
 > **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=yk9xEDG_5Lw)
 
-
-## Overview
-This component allows you to filter dashboard data interactively via a visualization tile. Unlike standard filters, it supports immediate updates and rich styling.
-
 *Note: Parts of this code were generated using Gemini. As a custom visualization, this is not officially supported by Looker/Google. Please use at your own risk.*
 
 ## Key Features (Pros)
