@@ -1,6 +1,6 @@
 # Advanced Cross Filter (Custom Visualization)
 
-This is a Custom Visualization for Looker that functions as an interactive filter. **Unlike standard filters, it allows for free placement anywhere on the dashboard and triggers instant updates without requiring an update button.**
+This is a Custom Visualization for Looker that functions as an interactive filter. **Unlike standard dashboard filters, it allows for free placement anywhere on the dashboard and triggers instant updates without requiring an update button.**
 
 <img width="800"  alt="Image" src="https://github.com/user-attachments/assets/22b6ad9c-7e4e-4e6d-a599-9315d25bd187" />
 
