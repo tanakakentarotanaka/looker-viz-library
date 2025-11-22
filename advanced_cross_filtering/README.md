@@ -19,7 +19,6 @@ This component allows you to filter dashboard data interactively via a visualiza
 ### 🚀 Instant Interaction
 **No need to press an "Update" button.**
 Filtering is applied immediately upon selection, providing a seamless user experience.
-![Instant Interaction](https://scrapbox.io/files/691c33ce0c61ad8d6950c2ea.png)
 
 ### 🎨 Flexible Layout
 **Place it anywhere.**
@@ -29,7 +28,6 @@ Since this acts as a visualization tile, you can position it anywhere on your da
 ### 📊 Integrated Data Visualization
 **Visualize Measures.**
 You can display measures alongside your filter dimensions using data bars and color scales, giving context to the filter options.
-![Data Bars](https://scrapbox.io/files/691c36ecb813ed3efbf136d2.png)
 
 ### 🖌️ Granular Design Control
 Customize backgrounds, transparency levels, and even use images as backgrounds for a highly polished look.
