@@ -4,9 +4,6 @@ Looker comes with a great set of standard visualizations, but sometimes you need
 
 To address this, Looker allows developers to build **Custom Visualizations** to create exactly what is needed. However, while this traditionally requires specialized knowledge of HTML, CSS, and JavaScript, this guide demonstrates how to create them using **Gemini** (Google's Generative AI)—allowing you to build complex custom charts without writing a single line of code yourself.
 
-
-![Standard vs Custom](https://storage.googleapis.com/zenn-user-upload/ae45ab31ddad-20251008.png)
-
 ## 🌟 Examples of What You Can Build
 1.  **Star Rating Chart:** A 5-star scale visualization not found in standard options.
     ![Star Chart](https://storage.googleapis.com/zenn-user-upload/45ef3aebdd3e-20251008.png)
@@ -35,6 +32,8 @@ We will use Gemini to generate the necessary code and instructions.
     * *Note: You should customize sections 【1】 and 【2】 based on the chart you want to build.*
 
 #### 🤖 Prompt Template
+> **💡 Pro Tip:** Once you are familiar with the process, you don't strictly need to follow this template. Often, simply describing the visualization you want to Gemini in plain language (e.g., *"Make me a bar chart that turns red when values exceed 100"*) is enough to generate working code.
+> **🚧 Note on Functionality:** The current prompt template may not fully support advanced features like **Cross-filtering**. I plan to update this repository with improved prompts to handle these features in the future.
 ```
 You are an expert in Looker Custom Visualization development.
 Please generate the JavaScript code and setup instructions for a Looker Custom Visualization based on the following requirements.
