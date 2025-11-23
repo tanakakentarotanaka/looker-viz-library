@@ -5,12 +5,10 @@ Looker comes with a great set of standard visualizations, but sometimes you need
 To address this, Looker allows developers to build **Custom Visualizations** to create exactly what is needed. However, while this traditionally requires specialized knowledge of HTML, CSS, and JavaScript, this guide demonstrates how to create them using **Gemini** (Google's Generative AI)—allowing you to build complex custom charts without writing a single line of code yourself.
 
 ## 🌟 Examples of What You Can Build
-1.  **Star Rating Chart:** A 5-star scale visualization not found in standard options.
-    ![Star Chart](https://storage.googleapis.com/zenn-user-upload/45ef3aebdd3e-20251008.png)
-2.  **Calendar Chart:** Display values, bar charts, or color scales within calendar dates.
-    ![Calendar](https://storage.googleapis.com/zenn-user-upload/ed8063d0de39-20251008.png)
-3.  **Customized Bar Chart:** Fine-tuned charts with auxiliary lines on specific months (e.g., September).
-    ![Bar Chart](https://storage.googleapis.com/zenn-user-upload/6e21c204d014-20251009.png)
+[Advanced Cross Filter](https://github.com/tanakakentarotanaka/looker-viz-library/blob/main/advanced_cross_filtering/README.md)
+
+https://github.com/looker/custom_visualizations_v2/tree/master/src/examples
+
 
 ## ⚠️ Prerequisites & Important Notes
 Before you start, please note the following:
