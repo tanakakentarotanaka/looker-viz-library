@@ -47,7 +47,6 @@ Customize backgrounds, transparency levels, and even use images as backgrounds f
 
 Please refer to the following link for detailed installation and implementation steps:
 * [**Step 2: Implement in Looker**](https://github.com/tanakakentarotanaka/looker-viz-library/tree/main?tab=readme-ov-file#step-2-implement-in-looker)
-Step 2: Implement in Looker
 
 ## Disclaimer
 This is a custom visualization sample. If you require additional features, you may try modifying the code using AI tools like Gemini. Support is not provided for this visualization.
