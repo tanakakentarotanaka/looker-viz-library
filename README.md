@@ -1,2 +1,132 @@
-# looker-viz-library
-Source code for custom visualizations designed for the Looker platform. Much of this code was developed with the assistance of Gemini. The creator is not responsible for any damage or issues arising from its use. Use at your own risk.
+# Create Looker Custom Visualizations with Gemini (No Coding Required!) 🚀
+
+Looker comes with a great set of standard visualizations, but sometimes you need a chart that fits a very specific business need **or a unique design requirement that goes beyond the built-in library.**
+
+To address this, Looker allows developers to build **Custom Visualizations** to create exactly what is needed. However, while this traditionally requires specialized knowledge of HTML, CSS, and JavaScript, this guide demonstrates how to create them using **Gemini** (Google's Generative AI)—allowing you to build complex custom charts without writing a single line of code yourself.
+
+
+![Standard vs Custom](https://storage.googleapis.com/zenn-user-upload/ae45ab31ddad-20251008.png)
+
+## 🌟 Examples of What You Can Build
+1.  **Star Rating Chart:** A 5-star scale visualization not found in standard options.
+    ![Star Chart](https://storage.googleapis.com/zenn-user-upload/45ef3aebdd3e-20251008.png)
+2.  **Calendar Chart:** Display values, bar charts, or color scales within calendar dates.
+    ![Calendar](https://storage.googleapis.com/zenn-user-upload/ed8063d0de39-20251008.png)
+3.  **Customized Bar Chart:** Fine-tuned charts with auxiliary lines on specific months (e.g., September).
+    ![Bar Chart](https://storage.googleapis.com/zenn-user-upload/6e21c204d014-20251009.png)
+
+## ⚠️ Prerequisites & Important Notes
+Before you start, please note the following:
+* **Target Platform:** This guide is for **Looker** (Google Cloud Core/Original), *not* Looker Studio.
+* **Permissions:** You need **Developer** permissions or higher.
+* **Setup:** Ask your Looker Admin to create a generic **Empty Project** for custom visualizations.
+* **Support:** Custom visualizations are not covered by Google's official support.
+* **Best Practice:** Always try to use standard visualizations or the [Chart Config Editor](https://cloud.google.com/looker/docs/chart-config-editor) first. Too many custom charts can make dashboards hard to maintain or interpret.
+
+---
+
+## 🛠️ How to Create It
+
+We will use Gemini to generate the necessary code and instructions.
+
+### Step 1: Generate the Code with Gemini
+1.  Open [Gemini](https://gemini.google.com/) (Select a model with "Pro" or higher capabilities).
+2.  Copy and paste the **Prompt Template** below into Gemini.
+    * *Note: You should customize sections 【1】 and 【2】 based on the chart you want to build.*
+
+#### 🤖 Prompt Template
+```
+You are an expert in Looker Custom Visualization development.
+Please generate the JavaScript code and setup instructions for a Looker Custom Visualization based on the following requirements.
+
+---
+
+### 【1. Overview of the Visualization】
+* **Chart Type:** (e.g., Bar chart where I can add text memos on top of each bar)
+* **Data Used:** (e.g., 1 Dimension, 1 Measure)
+* **Design/Behavior:**
+    * (e.g., Display the memo inside a speech bubble.)
+    * (e.g., The bubble tail should point to the corresponding bar.)
+
+### 【2. User Configuration Options】
+Items that the user should be able to adjust dynamically in the Looker Edit tab.
+* (e.g., Allow setting up to 5 text bubbles.)
+* (e.g., Allow input for text content and specifying which Dimension value it belongs to.)
+* (e.g., Allow font size, bold, and color settings for each bubble.)
+* (e.g., Allow X/Y position adjustment.)
+
+### 【3. Output Format & Procedure】
+* **Instructions:** Provide a numbered list of steps to set this up in Looker.
+* **Code:** Provide the full code for `manifest.lkml` and the `JavaScript` file, ready to copy & paste.
+* **For Beginners:** Explain technical terms simply so non-engineers can understand.
+* **Language:** Ensure default labels in the code are in English.
+
+### 【4. Technical Requirements】
+* **Target Audience:** Users with Looker Developer permissions.
+* **File Creation:**
+    * `manifest.lkml`: Created via the Looker IDE "+" button.
+    * JavaScript file: Created locally and dragged & dropped into the Looker IDE.
+* **`manifest.lkml` details:**
+    * Do not include the `project_name` parameter.
+    * Ensure the `visualization` id is unique.
+    * Example:
+        ```lkml
+        visualization: {
+          id: "unique-id-name"
+          label: "My Custom Chart"
+          file: "visualization.js"
+          dependencies: ["[https://d3js.org/d3.v7.min.js](https://d3js.org/d3.v7.min.js)"]
+        }
+        ```
+* **JavaScript details:**
+    * Use `looker.plugins.visualizations.add`.
+    * Provide code that works standalone and is stable.
+    * If external libraries (like D3.js) are needed, load them via the `dependencies` parameter from a reliable CDN (no sri_hash needed for simplicity).
+```
+
+
+
+### Step 2: Implement in Looker
+Follow the instructions generated by Gemini. The general flow is as follows:
+
+1.  **Open the Project:** Go to the empty project created by your admin.
+2.  **Create Manifest:**
+    * Click the `+` icon in the file browser -> **Create Project Manifest**.
+    * Paste the `manifest.lkml` code provided by Gemini.
+    * Click **Save Changes**.
+3.  **Create JS File:**
+    * Open a text editor (Notepad, TextEdit, VS Code) on your computer.
+    * Paste the JavaScript code provided by Gemini.
+    * Save the file (e.g., `my_custom_chart.js`).
+4.  **Upload:** Drag and drop your JS file into the Looker IDE file browser.
+5.  **Commit & Deploy:**
+    * Click **Validate LookML**.
+    * Click **Commit Changes & Push**.
+    * **Crucial Step:** Click **Deploy to Production**.
+    * *Note: Custom visualizations often require deployment to production to render correctly during testing.*
+
+### Step 3: Verify in an Explore
+1.  Open any Explore in Looker.
+2.  In the Visualization bar, click `...`.
+3.  You should see your new custom chart listed! Select it and test the configuration options.
+
+---
+
+## 🚑 Troubleshooting
+If it doesn't work:
+* **Paste errors to Gemini:** Copy any error messages or describe the behavior to Gemini.
+* **Share your code:** Paste your current `manifest.lkml` and JS code back to Gemini so it can check for syntax errors.
+* **Screenshots:** Sometimes showing Gemini a screenshot of the issue works better than text.
+* **Restart:** If Gemini gets confused, start a new chat session.
+
+## 🧪 Testing & Maintenance
+* **Ask Gemini for Test Cases:** Ask, "How should I test this chart to ensure it's robust?" Gemini can suggest boundary tests (min/max values) and irregular inputs.
+* **Updates:** To change the design (e.g., "Make the bars red"), simply ask Gemini to modify the code.
+
+---
+---
+### 📝 Author & Copyright
+This content is an English translation of the original article:
+[【Looker】非エンジニアでもOK！Geminiで自由にオリジナルのグラフ...](https://zenn.dev/google_cloud_jp/articles/48159e8495944d)
+
+*This translation is provided by the original author themselves, and the copyright belongs to the author.*
