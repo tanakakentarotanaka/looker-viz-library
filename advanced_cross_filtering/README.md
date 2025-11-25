@@ -2,6 +2,8 @@
 
 This is a Custom Visualization for Looker that functions as an interactive filter. **Unlike standard dashboard filters, it allows for free placement anywhere on the dashboard and triggers instant updates without requiring an update button.**
 
+
+
 <img width="800"  alt="Image" src="https://github.com/user-attachments/assets/22b6ad9c-7e4e-4e6d-a599-9315d25bd187" />
 
 (There is a Gemini mark in the bottom right corner of the image, but I just used Gemini to white out the image. Apart from this editing, it is the actual screen.)
@@ -46,9 +48,10 @@ Customize backgrounds, transparency levels, and even use images as backgrounds f
 
 Please refer to the following link for detailed installation and implementation steps:
 * [**Step 2: Implement in Looker**](https://github.com/tanakakentarotanaka/looker-viz-library/tree/main?tab=readme-ov-file#step-2-implement-in-looker)
+This viz requires that cross filters are enabled on the dashboard.
 
 ## Disclaimer
 This is a custom visualization sample. If you require additional features, you may try modifying the code using AI tools like Gemini. Support is not provided for this visualization.
-
+This viz does not use any external libraries.
 **Note on Translation:**
 The README and code were originally created in Japanese and translated/refined using Gemini. Please be aware that there may be unnatural phrasing or translation errors.---
