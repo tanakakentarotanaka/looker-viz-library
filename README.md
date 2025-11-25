@@ -19,8 +19,7 @@ Before you start, please note the following:
 * **Best Practice:** Always try to use standard visualizations or the [Chart Config Editor](https://cloud.google.com/looker/docs/chart-config-editor) first. Too many custom charts can make dashboards hard to maintain or interpret.
 
 ## Dependencies & Licenses
-If external libraries are used in this visualization, they are specified in the `manifest.lkml` file. **Please ensure you review and comply with the Terms of Service and License agreements of any external libraries before use.**
-
+If external libraries are used in your custom visualization, they will be specified in the manifest.lkml file. Please ensure you review and comply with the Terms of Service and License agreements of any external libraries before use.
 ---
 
 ## 🛠️ How to Create It
