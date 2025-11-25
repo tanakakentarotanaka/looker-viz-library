@@ -19,7 +19,6 @@ Filtering is applied immediately upon selection, providing a seamless user exper
 ### 🎨 Flexible Layout
 **Place it anywhere.**
 Since this acts as a visualization tile, you can position it anywhere on your dashboard layout. cf.Standard filters are restricted to the top or right side of the dashboard.
-![Layout](https://scrapbox.io/files/6921c9f13e863830990ebf16.png)
 
 ### 📊 Integrated Data Visualization
 **Visualize Measures.**
