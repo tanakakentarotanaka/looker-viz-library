@@ -6,8 +6,8 @@ To address this, Looker allows developers to build **Custom Visualizations** to 
 
 ## 🌟 Examples of What You Can Build
 [Advanced Cross Filter](https://github.com/tanakakentarotanaka/looker-viz-library/blob/main/advanced_cross_filtering/README.md)
+Creating other samples...
 
-https://github.com/looker/custom_visualizations_v2/tree/master/src/examples
 
 
 ## ⚠️ Prerequisites & Important Notes
