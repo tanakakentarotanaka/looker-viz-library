@@ -46,10 +46,18 @@ Please generate the JavaScript code and setup instructions for a Looker Custom V
 ---
 
 ### 【1. Overview of the Visualization】
--Modern movement line graph
+* **Chart Type:** (e.g., Bar chart where I can add text memos on top of each bar)
+* **Data Used:** (e.g., 1 Dimension, 1 Measure)
+* **Design/Behavior:**
+    * (e.g., Display the memo inside a speech bubble.)
+    * (e.g., The bubble tail should point to the corresponding bar.)
 
 ### 【2. User Configuration Options】
--I want options that are applicable to common anticipated use cases.
+Items that the user should be able to adjust dynamically in the Looker Edit tab.
+* (e.g., Allow setting up to 5 text bubbles.)
+* (e.g., Allow input for text content and specifying which Dimension value it belongs to.)
+* (e.g., Allow font size, bold, and color settings for each bubble.)
+* (e.g., Allow X/Y position adjustment.)
 
 ### 【3. Output Format & Procedure】
 * **Instructions:** Provide a numbered list of steps to set this up in Looker.
