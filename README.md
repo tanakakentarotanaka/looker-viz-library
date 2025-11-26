@@ -33,7 +33,7 @@ We will use Gemini to generate the necessary code and instructions.
 
 #### 🤖 Prompt Template
 > **💡 Pro Tip:** Once you are familiar with the process, you don't strictly need to follow this template. Often, simply describing the visualization you want to Gemini in plain language (e.g., *"Make me a bar chart that turns red when values exceed 100"*) is enough to generate working code.
-> **🚧 Note on Functionality:** The current prompt template may not fully support advanced features like **Cross-filtering**. I plan to update this repository with improved prompts to handle these features in the future.
+> **🚧 Note on Functionality:** The current prompt template may not fully support advanced features like **Drill-Down**. I plan to update this repository with improved prompts to handle these features in the future.
 
 ```
 You are an expert in Looker Custom Visualization development.
