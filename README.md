@@ -40,10 +40,6 @@ You are an expert in Looker Custom Visualization development.
 Please generate the JavaScript code and setup instructions for a Looker Custom Visualization based on the following requirements.
 
 ---
-You are an expert in Looker Custom Visualization development.
-Please generate the JavaScript code and setup instructions for a Looker Custom Visualization based on the following requirements.
-
----
 
 ### 【1. Overview of the Visualization】
 * **Chart Type:** (e.g., Bar chart where I can add text memos on top of each bar)
