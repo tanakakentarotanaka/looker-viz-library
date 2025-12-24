@@ -125,7 +125,8 @@ These are just based on my personal experience, so don't be afraid to experiment
 <img width="1500" height="658" alt="image" src="https://github.com/user-attachments/assets/509bbbea-8a75-4bd9-8246-9662ccfd2111" />
 
 🛠️Fixes, things to check when things go wrong
-<img width="1579" height="714" alt="image" src="https://github.com/user-attachments/assets/db85e559-c1bd-46db-b337-4f79fde22b7f" />
+<img width="1402" height="653" alt="image" src="https://github.com/user-attachments/assets/53084849-d8da-4dc9-9356-4fd6307090c0" />
+
 
 
 If you encounter errors or wish to add new features, please remember that **working with AI is an iterative process**.
