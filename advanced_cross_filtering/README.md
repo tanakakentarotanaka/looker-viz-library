@@ -2,6 +2,8 @@
 
 This is a Custom Visualization for Looker that functions as an interactive filter. **Unlike standard dashboard filters, it allows for free placement anywhere on the dashboard and triggers instant updates without requiring an update button.**
 
+[Screen recording 2026-01-31 01.55.58.webm](https://github.com/user-attachments/assets/f5243f6c-68ae-43e7-a1b5-1a787ccd1dd3)
+
 
 (There is a Gemini mark in the bottom right corner of the image, but I just used Gemini to white out the image. Apart from this editing, it is the actual screen.)
 
