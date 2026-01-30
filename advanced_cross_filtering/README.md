@@ -3,12 +3,7 @@
 This is a Custom Visualization for Looker that functions as an interactive filter. **Unlike standard dashboard filters, it allows for free placement anywhere on the dashboard and triggers instant updates without requiring an update button.**
 
 
-
-<img width="800"  alt="Image" src="https://github.com/user-attachments/assets/22b6ad9c-7e4e-4e6d-a599-9315d25bd187" />
-
 (There is a Gemini mark in the bottom right corner of the image, but I just used Gemini to white out the image. Apart from this editing, it is the actual screen.)
-
-> **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=yk9xEDG_5Lw)
 
 *Note: Parts of this code were generated using Gemini. As a custom visualization, this is not officially supported by Looker/Google. Please use at your own risk.*
 
