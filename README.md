@@ -4,10 +4,8 @@ Looker comes with a great set of standard visualizations, but sometimes you need
 
 To address this, Looker allows developers to build **Custom Visualizations** to create exactly what is needed. However, while this traditionally requires specialized knowledge of HTML, CSS, and JavaScript, this guide demonstrates how to create them using **Gemini** (Google's Generative AI)—allowing you to build complex custom charts without writing a single line of code yourself.
 
-## 🌟 Examples of What You Can Build
-[Advanced Cross Filter](https://github.com/tanakakentarotanaka/looker-viz-library/blob/main/advanced_cross_filtering/README.md)
-Creating other samples...
-
+## 🌟 Viz Examples
+https://github.com/FPFletcher/looker-custom-visualizations-picasso-project
 
 
 ## ⚠️ Prerequisites & Important Notes
